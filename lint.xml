@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Android Lint severities. No baseline file: a finding is fixed or reported, never suppressed here. -->
+<lint>
+    <!-- Security (det-android-lint-security) -->
+    <issue id="AllowBackup" severity="error" />
+    <issue id="DataExtractionRules" severity="error" />
+    <issue id="InsecureBaseConfiguration" severity="error" />
+    <issue id="TrustAllX509TrustManager" severity="error" />
+    <issue id="BadHostnameVerifier" severity="error" />
+    <issue id="SetJavaScriptEnabled" severity="error" />
+    <issue id="AddJavascriptInterface" severity="error" />
+    <issue id="ExportedService" severity="error" />
+    <issue id="ExportedReceiver" severity="error" />
+    <issue id="UnsafeImplicitIntentLaunch" severity="error" />
+    <issue id="QueryAllPackagesPermission" severity="error" />
+    <issue id="UnspecifiedRegisterReceiverFlag" severity="error" />
+
+    <!-- Compose (det-android-lint-compose) -->
+    <issue id="UnrememberedMutableState" severity="error" />
+    <issue id="FlowOperatorInvokedInComposition" severity="error" />
+    <issue id="ModifierParameter" severity="error" />
+    <issue id="ComposableLambdaParameterNaming" severity="error" />
+    <issue id="LocalContextConfigurationRead" severity="error" />
+
+    <!-- Accessibility (icon-only controls carry a description; NFR-5) -->
+    <issue id="ContentDescription" severity="error" />
+    <issue id="ClickableViewAccessibility" severity="error" />
+    <issue id="KeyboardInaccessibleWidget" severity="error" />
+    <issue id="LabelFor" severity="error" />
+
+    <!-- Localisation (det-android-lint-l10n; UI languages fr and en) -->
+    <issue id="MissingTranslation" severity="error" />
+    <issue id="ExtraTranslation" severity="error" />
+</lint>

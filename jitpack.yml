@@ -1,0 +1,4 @@
+# The JDK key is unverified (OI-08): the first JitPack build log decides whether openjdk21 is accepted.
+# AGP 9.4.1 needs JDK 17 or newer.
+jdk:
+  - openjdk21
